@@ -78,7 +78,6 @@ public class Application2 {
             for (char arrBaseballNumber : arrBaseballNumbers) {
                 if (!isStrike[i] && TARGET_NUMBER.charAt(i) == arrBaseballNumber) {
                     ballCount++;
-                    isStrike[i] = true;
                     break;
                 }
             }
