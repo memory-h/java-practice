@@ -29,13 +29,17 @@ import java.util.*;
 public class Application2 {
 
     private static final Scanner sc = new Scanner(System.in);
-    private static final String TARGET_NUMBER = generateUniqueTargetNumber();
     private static final String FOUR_DIGIT_NUMBER_REGEX = "\\d{4}";
+    private static final String TARGET_NUMBER;
     private static final int RANDOM_NUMBER_BOUND = 10;
     private static final int TARGET_LENGTH = 4;
 
     private static int remainingAttempts = 10;
     private static boolean[] isStrike;
+
+    static {
+        TARGET_NUMBER = generateUniqueTargetNumber();
+    }
 
     public static void main(String[] args) {
         playGame();
