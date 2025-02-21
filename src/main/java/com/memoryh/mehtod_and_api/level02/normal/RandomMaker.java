@@ -1,4 +1,4 @@
-package com.memoryh.mehtodandapi.level02.normal;
+package com.memoryh.mehtod_and_api.level02.normal;
 
 import java.util.List;
 import java.util.Random;

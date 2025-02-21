@@ -1,4 +1,4 @@
-package com.memoryh.mehtodandapi.level01.basic;
+package com.memoryh.mehtod_and_api.level01.basic;
 
 import java.util.stream.IntStream;
 

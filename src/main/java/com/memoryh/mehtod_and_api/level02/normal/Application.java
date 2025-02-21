@@ -1,6 +1,6 @@
-package com.memoryh.mehtodandapi.level02.normal;
+package com.memoryh.mehtod_and_api.level02.normal;
 
-import static com.memoryh.mehtodandapi.level02.normal.RandomMaker.*;
+import static com.memoryh.mehtod_and_api.level02.normal.RandomMaker.*;
 
 public class Application {
 
