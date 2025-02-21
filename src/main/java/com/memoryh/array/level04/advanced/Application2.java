@@ -102,7 +102,7 @@ public class Application2 {
     }
 
     private static void validateUserInput(final String userInput) {
-        if (userInput.length() != TARGET_LENGTH || !userInput.matches(FOUR_DIGIT_NUMBER_REGEX)) {
+        if (!userInput.matches(FOUR_DIGIT_NUMBER_REGEX)) {
             throw new IllegalArgumentException("4자리의 정수를 입력해야 합니다.");
         }
     }
