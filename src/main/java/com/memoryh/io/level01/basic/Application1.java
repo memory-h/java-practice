@@ -1,4 +1,4 @@
-package com.memoryh.io;
+package com.memoryh.io.level01.basic;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
