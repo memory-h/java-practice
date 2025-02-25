@@ -66,14 +66,14 @@ public class Application1 {
         }
     }
 
-    private static int pareInt(String userInput) {
+    private static int parseInt(String userInput) {
         return Integer.parseInt(userInput);
     }
 
     private static int getDenominator() {
         System.out.print("분모 입력 : ");
         String userInput = readUserInput();
-        int parseUserInput = pareInt(userInput);
+        int parseUserInput = parseInt(userInput);
         validateDenominator(parseUserInput);
         return parseUserInput;
     }
@@ -81,7 +81,7 @@ public class Application1 {
     private static int getNumerator() {
         System.out.print("분자 입력 : ");
         String userInput = readUserInput();
-        return pareInt(userInput);
+        return parseInt(userInput);
     }
 
     private static void validateUserInput(final String userInput) {
