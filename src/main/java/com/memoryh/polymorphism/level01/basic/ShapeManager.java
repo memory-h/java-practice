@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 
 public class ShapeManager {
 
-    private Shape[] shapes = new Shape[2];
+    private Shape[] shapes = new Shape[10];
     private int index;
 
     /* 배열에 전달 된 Shape를 추가. 단, 배열의 크기가 부족할 경우 2배로 늘려서 추가. */
