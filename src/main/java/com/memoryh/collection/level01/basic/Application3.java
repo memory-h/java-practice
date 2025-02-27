@@ -54,7 +54,7 @@ public class Application3 {
     }
 
     private static void printAnnounceCustomerTurn(final String customerName) {
-        System.out.println(customerName + " 고객님 차레입니다.");
+        System.out.println(customerName + " 고객님 차례입니다.");
     }
 
     private static void printConfirmCustomerAdded(final String customerName) {
