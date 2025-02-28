@@ -29,9 +29,8 @@ public class Application {
         // 2. 특정 과목(수학)에서 90점 이상 받은 학생의 이름을 리스트로 반환
         List<String> highScorersInMath =
                 students.stream()
-                        .filter(s -> s.getScore() >= 90)
+                        .filter(s -> s.getScore() >= 90 && s.getSubject().equals("수학"))
                         .map(Student::getName)
-                        .distinct()
                         .toList(); // 코드 작성
 
         // 3. 가장 높은 평균 점수를 가진 학생의 이름을 반환
